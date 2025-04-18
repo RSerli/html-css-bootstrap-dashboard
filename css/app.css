@@ -1,7 +1,12 @@
 /* ---------- Configurazioni generali ---------- */
-
+table button>img {
+    min-width: 10pxx;
+}
 
 /* ---------- Configurazioni spefifiche ---------- */
+.BookStatus {
+    color: white;
+}
 
 
 /* ---------- Utility ---------- */

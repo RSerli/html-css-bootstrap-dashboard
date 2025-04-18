@@ -3,6 +3,7 @@
 
 /* ---------- Configurazioni spefifiche ---------- */
 
+
 /* ---------- Utility ---------- */
 
 
@@ -13,6 +14,10 @@
 
 .debug .col>* {
     border: 1px dotted gray;
+}
+
+.debug .container>* {
+    border: 1px dotted;
 }
 
 .debug .container,

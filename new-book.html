@@ -51,6 +51,69 @@
             </div>
         </nav>
     </header>
+    <main>
+        <!-- main finestra "Nuovo Libro" -->
+        <section class="container pt-3">
+            <h2>Nuovo Libro</h2>
+            <form class="row g-3 mt-2">
+                <!-- text box nome dell'autore -->
+                <div class="col-6">
+                    <label for="txt-Author-FirstName" class="form-label">Nome Autore</label>
+                    <input type="text" class="form-control" id="txt-Author-FirstName"
+                        placeholder="Inserisci il nome dell'autore" required>
+                </div>
+                <!-- text box cognome dell'autore -->
+                <div class="col-6">
+                    <label for="txt-Author-SecondName" class="form-label">Cognome Autore</label>
+                    <input type="text" class="form-control" id="txt-Author-SecondName"
+                        placeholder="Inserisci il cognome dell'autore" required>
+                </div>
+                <!-- text box Titolo libro -->
+                <div class="col-12">
+                    <label for="txt-BookTitle" class="form-label">Titolo</label>
+                    <input type="text" class="form-control" id="txt-BookTitle"
+                        placeholder="Inserisci il titolo del libro" required>
+                    <p class="form-text">Titolo versione italiana</p>
+                </div>
+                <!-- dropdown menù genere del libro -->
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">Genere</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Scegli il genere</option>
+                        <option>Romantico</option>
+                        <option>Giallo</option>
+                        <option>Istruzione</option>
+                        <option>Storico</option>
+                    </select>
+                </div>
+                <!-- Anno di pubblicazione libro -->
+                <div class="col-md-4">
+                    <label for="txt-PubblicationYear" class="form-label">Anno di pubblicazione</label>
+                    <input type="text" class="form-control" id="txt-PubblicationYear" placeholder="Inserisci l'anno">
+                </div>
+                </div>
+                <!-- Codice ISBN libro -->
+                <div class="col-md-4">
+                    <label for="txt-BookISBN" class="form-label">ISBN#</label>
+                    <input type="text" class="form-control" id="txt-BookISBN" placeholder="Inserisci il codice ISBN#">
+                </div>
+                <!-- Separatore -->
+                <hr class="border border-2 opacity-75 my-4">
+
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Check me out
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+            </form>
+        </section>
+    </main>
     <!-- Link JS Bottstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"

@@ -1,11 +1,9 @@
 /* ---------- Configurazioni generali ---------- */
-table button>img {
-    min-width: 15px;
-}
+
 
 /* ---------- Configurazioni spefifiche ---------- */
-.BookStatus {
-    color: white;
+.LogoSito:hover {
+    cursor: default;
 }
 
 
